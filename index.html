@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+      font-size: 11px;
+    }
+
+    @font-face {
+      font-family: 'Figtree';
+      src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+    }
+
+    body {
+      font-family: 'Figtree';
+      background-color: hsl(47, 88%, 63%);
+      min-width: 375px;
+      margin: 0px;
+      justify-items: center;
+      align-items: center;
+      display: grid;
+      min-height: 100vh;
+      grid-template-rows: 465px 10px;
+    }
+
+    .card {
+      background-color: hsl(0, 0%, 100%);
+      width: 310px;
+      border-radius: 20px;
+      padding: 20px;
+      margin-top: 400px;
+      border: 1px;
+      border-style: solid;
+      border-color: black;
+      box-shadow: 7px 7px;
+    }
+
+    .article img{
+      width: 310px;
+      border-radius: 20px;
+    }
+
+    a{
+      font-weight: 800;
+      font-size: 20px;
+    }
+
+    a:hover {
+      color: hsl(47, 88%, 63%)  ;
+    } 
+
+    .article p {
+      font-weight: 500;
+      font-size: 16px;
+    }
+    
+    .profile-pic {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      vertical-align: middle;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="article">
+        <img src="assets/images/illustration-article.svg" alt="article-pic">
+    </div>
+    <div class="card-content">
+        <p style="background-color: hsl(47, 88%, 63%); border-radius: 3px; padding: 5px; width: 80px; font-weight: 800; text-align: center;">Learning</p>
+        <p style="color: hsl(0, 0%, 7%); font-size: 12px; font-weight: 700;">Publish 21 Dec 2023</p>
+        <a>HTML & CSS foundations</a>
+        <p style="color: hsl(0, 0%, 42%);">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <p style="font-weight: 800; margin-bottom: 0px;"><img class="profile-pic" src="assets/images/image-avatar.webp">Greg Hooper</p>
+    </div>
+  </div>
+  
+</body>
+<footer style="margin-top: 450px;">
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/paduiii">Nontakron Srinitee</a>.
+  </div>
+</footer>
+</html>
